@@ -1,0 +1,41 @@
+header
+{
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgb(91, 0, 177);
+    padding: 5px;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+nav img
+{
+    width: 60px;
+}
+nav h3
+{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@media (max-width: 500px) {
+    header
+    {
+        width: 100%;
+        padding: 1px;
+        height: 34px;
+    }
+    nav img
+{
+    width: 30px;
+}
+}

@@ -1,0 +1,314 @@
+main
+{
+    height: 100px;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+main div{
+    width: 100%;
+}
+form{
+    border-bottom: 1px solid black;
+}
+form div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+form .inputs
+{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 18px;
+}
+form .inputs div .text
+{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+form .inputs div .x
+{
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+form .inputs div .y
+{
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+form .inputs div .t
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+form div 
+{
+    width: 100%;
+}
+.btn_img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 5px; 
+    margin-top: 10px;   
+}
+.btn_img div
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.btn_img .btns button:nth-child(1)
+{
+    
+    margin: auto;
+    border: none;
+    background-color: blueviolet;
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+.btn_img .btns button:nth-child(2)
+{
+    margin: auto;
+    border: none;
+    background-color: rgb(0, 132, 255);
+    width: 23%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.btn_img .btns button:nth-child(3)
+{
+    margin: auto;
+    border: none;
+    background-color: rgb(0, 132, 255);
+    width: 23%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 5px;
+}
+div button:active
+{
+    box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.5);
+}
+.size
+{
+    width: 60px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+form div button:active
+{
+    box-shadow: 0 0 0.2px 0.5px black;
+}
+.change_color
+{
+    display: inline;
+}
+.change_color input
+{
+    margin-right: 10px;
+}
+.note
+{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(231, 123, 123);
+    box-shadow: inset 0 0 1px 0.5px rgba(255, 73, 1, 0.5);
+
+}
+.inputs div button
+{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(185, 180, 180);
+    border-radius: 5px;
+}
+
+.inputs div button:active
+{
+    box-shadow: 0 0 1px 0.5px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 500px) {
+    
+    main
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 1px;
+    }
+    main div{
+        width: 100%;
+    }
+    main div form
+    {
+        width: 100%;
+        height: auto;
+        
+    }
+    form .inputs div
+    {
+        margin-bottom: 1px;
+    }
+    form .inputs
+    {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        margin-bottom: 1px;
+    }
+    form .inputs div .text
+{
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 1px;
+    margin-right: 4px;
+    box-shadow: 0 0 0.5px 1px rgba(0, 0, 0, 0.5);
+}
+form .inputs div button{
+    width: 40px;
+    height: 25;
+    font-size: 14px;
+    margin-right: 4px;
+}
+    label
+    {
+        font-size: 14px;
+    }
+    .note
+    {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1px;
+        display: none;
+    }
+    .btn_img
+    {
+        flex-direction: row;
+        
+        margin: 0;
+        width: 100%;
+    }
+    .btn_img div
+    {
+        width: 100%;
+        
+    }
+    .btn_img .btns
+    {
+        width: 100%;
+        
+    }
+    .btn_img .btns
+    {
+        display: block;
+        width: 50%;
+    }
+    .btn_img .btns button:nth-child(1){
+        width: 50px;
+        padding: 2px;
+        margin: 0;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .btn_img .btns button:nth-child(2)
+    {
+        width: 60px;
+        padding: 2px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    .btn_img .btns button:nth-child(3)
+    {
+        width: 60px;
+        padding: 2px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .btn_img form
+    {
+        width: 50%;
+        margin: 0;
+        border: none;
+    }
+    .btn_img form  label
+    {
+        font-size: 14px;
+        margin-right: 1px;
+    }
+    .btn_img form  input
+    {
+        font-size: 14px;
+        width: 36px;
+        padding: 0;
+        height: 24px;
+    }
+}
